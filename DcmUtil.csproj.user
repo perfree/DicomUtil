@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>img2dcm "{patientName:%27张三1%27,patientID:%27112123%27,images:[%27E:/test/images/1.jpg%27,%27E:/test/images/2.jpg%27],outDcm:%27E:/test/images/3.dcm%27}"</StartArguments>
+  </PropertyGroup>
+</Project>
